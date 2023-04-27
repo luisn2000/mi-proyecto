@@ -1,14 +1,3 @@
-/* En este archivo escriban su CSS */
-
-/* Fonts */
-/* Importar aquí la font */
-
-
-
-/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
-*  cuyos valores asigna por defecto el navegador.
-*/
-
 /* Reset */
 * {
     box-sizing: border-box;
@@ -32,10 +21,10 @@ a {
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
-main {
+/* main {
     max-width: 1200px;
     margin: auto;
-}
+} */
 
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
@@ -54,3 +43,147 @@ main {
 *    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
+  
+header {
+    background-color: #fbfbfb;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    
+  }
+  
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav li {
+    display: inline-block;
+    margin-right: 25px;
+  }
+  
+nav li:last-child {
+    margin-right: 0;
+  }
+
+nav a {
+    color: #0f0f0f;
+    text-decoration: none;
+  }
+
+img { width: 150px;
+        display: flex;
+        justify-content: flex-end;
+ }
+
+ .img1 { width: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.img2 { width: 50px;
+  border-block-color: black;
+  background-color: #fbfbfb;
+  display: inline-block;
+  justify-content: space-between;
+  
+}
+
+main { display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+ 
+section p {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+section h1 {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+section h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: 2px solid #af599f;
+    padding-bottom: 10px;
+  }
+
+
+button {
+    background-color: #af599e;
+    border-radius: 15px 15px 15px 15px;
+    color: #fbfbfb;
+    font-size: 18px;
+    max-width: 250px;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 700;
+  }
+
+h2 {
+    color: #0f0f0f;
+    font-size: 28px;
+  }
+
+  article p {
+    text-align: center;
+    
+  }
+
+article {
+    background-color: rgba(175, 89, 158, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+article p:first-of-type {
+    font-style: italic;
+    }  
+
+footer {
+    background-color: #af599e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+    }
+    
+footer li:last-child {
+    margin-right: 0;
+    }
+    
+footer a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+       
