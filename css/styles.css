@@ -51,7 +51,7 @@ body {
 header {
     background-color: #fbfbfb;
     color: #fff;
-    padding: 20px;
+    padding: 90px;
     display: flex;
     
   }
@@ -105,8 +105,7 @@ main { display: flex;
     margin: auto;
     padding: 20px;
   }
-  
- 
+
 section p {
     margin-bottom: 40px;
     text-align: center;
@@ -124,16 +123,34 @@ section h2 {
     padding-bottom: 10px;
   }
 
+.button {
+  border: 0;
+  background-color: #af599e;
+  border-block-color: #fbfbfb;
+  line-height: 2.5;
+  /* border-radius: 15px 15px 15px 15px; */
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color:  #fbfbfb;
+  font-size: 20px;
+  block-size: 50%;
+  align-content: center;
+  justify-content: center;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 
-button {
-    background-color: #af599e;
-    border-radius: 15px 15px 15px 15px;
-    color: #fbfbfb;
-    font-size: 18px;
-    max-width: 250px;
-    align-content: center;
-    justify-content: center;
 }
+
+.button:hover {
+  background-color: #a8108a;
+}
+
+/* .button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+} */
 
 h1 {
     font-weight: 700;
@@ -144,7 +161,7 @@ h2 {
     font-size: 28px;
   }
 
-  article p {
+article p {
     text-align: center;
     
   }
@@ -155,29 +172,36 @@ article {
     border-radius: 10px;
   }
 
-article p:first-of-type {
+/* article p:first-of-type {
     font-style: italic;
-    }  
+    }   */
 
 footer {
-    background-color: #af599e;
+    background-color: #fbfbfb;
     color: #fff;
-    padding: 20px;
+    padding: 90px;
     text-align: center;
   }
-  
-footer ul {
+
+.redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer  {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 90px;
+    background-color: #af599e;
     }
     
-footer li {
+footer div li {
     display: inline-block;
     margin-right: 10px;
+    
     }
     
-footer li:last-child {
+footer div li:last-child {
     margin-right: 0;
     }
     
